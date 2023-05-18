@@ -1,0 +1,16 @@
+.quizTopic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.quiz-topic-header{
+    margin-top: 60px;
+    text-align: center;
+}
+.quiz-topic-header h2{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#quiz-topic-header-style{
+    border-bottom: 3px solid red;
+    padding-bottom: 2px;
+}

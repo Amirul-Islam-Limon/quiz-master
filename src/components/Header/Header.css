@@ -1,0 +1,13 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    align-items: center;
+}
+.header img{
+    width: 100%;
+}
+.header h2{
+    font-weight: bolder;
+}

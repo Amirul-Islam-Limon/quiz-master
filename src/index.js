@@ -1,13 +1,54 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Main from './layouts/Main';
+import Header from './components/Header/Header';
+import QuizTopics from './components/QuizTopics/QuizTopics';
+import Quiz from './components/Quiz/Quiz';
+
+const router= createBrowserRouter([
+  {
+    path:"/",
+    element:<Main></Main>,
+    children:[
+      {
+        path:"/",
+        element:<Header></Header>,
+        children:[
+          {
+            path:"/",
+            loader:()=>{
+              return fetch("https://openapi.programming-hero.com/api/quiz")
+            },
+            element:<QuizTopics></QuizTopics>
+          }
+        ]
+      },
+      {
+        path:"/topics",
+        loader:()=>{
+          return fetch("https://openapi.programming-hero.com/api/quiz")
+        },
+        element:<QuizTopics></QuizTopics>
+      },
+      {
+        path:"/quiz/:topicName/:topicId",
+        loader:(props)=>{
+          return fetch(`https://openapi.programming-hero.com/api/quiz/${props.params.topicId}`)
+        },
+        element:<Quiz></Quiz>
+      }
+    ]
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}></RouterProvider>
   </React.StrictMode>
 );
 

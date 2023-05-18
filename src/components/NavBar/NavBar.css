@@ -1,0 +1,21 @@
+#navbar-brand{
+    text-decoration: none;
+    color: red;
+    font-size: xx-large;
+    font-weight: 700;
+}
+#navbar-brand-style{
+    background-color: black;
+    padding: 5px;
+    /* color: white; */
+}
+.nav-item a>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.nav-item a>:hover{
+    border-bottom: 1px solid red;
+    color: black;
+}
