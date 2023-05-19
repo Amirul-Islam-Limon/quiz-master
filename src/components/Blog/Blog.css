@@ -1,0 +1,12 @@
+.blogs-header{
+    margin-top: 50px;
+    text-align: center;
+}
+.blogs-header-style{
+    border-bottom: 2px solid red;
+    padding-bottom: 2px;
+}
+.blogs{
+    /* max-width: 700px;
+    margin: 0 auto; */
+}

@@ -3,6 +3,8 @@
 }
 .quiz-option{
     padding: 7px;
+    background-color: rgb(249, 246, 246);
+    margin: 2px;
 }
 .quiz-option label{
     padding: 5px;

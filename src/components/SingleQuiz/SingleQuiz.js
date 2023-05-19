@@ -3,33 +3,23 @@ import './SingleQuiz.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEyeSlash} from '@fortawesome/free-solid-svg-icons'
 import CorrectAnswerModal from '../CorrectAnswerModal/CorrectAnswerModal';
+import QuizOption from '../QuizOption/QuizOption';
 
 const SingleQuiz = ({question,quizNumber}) => {
     const [modalShow, setModalShow] = useState(false);
-    const [correctAnswer, setCorrectAnswer]=useState(null)
+    // const [correctAnswer, setCorrectAnswer]=useState(null)
+    
+    const correctAnswer = question.correctAnswer;
 
-    const handleTheAnswer=(option, correctAnswer)=>{
-        if(option === correctAnswer){
-            setCorrectAnswer("yes")
-        }
-        else{
-            setCorrectAnswer("no")
-        }
+    const handleTheAnswer=(option)=>{
+        // console.log(option)
     }
 
-    // const handleAnswerError=()=>{
-        let answerStyle;
-        if(correctAnswer === "yes"){
-            answerStyle = "quiz-option-true-style"
-        }
-        else if(correctAnswer === "no"){
-            answerStyle = "quiz-option-false-style"
-        }
 
     // }
 
     
-    console.log(question.correctAnswer)
+    console.log(correctAnswer)
 
     return (
         <div className='container-lg'>
@@ -39,10 +29,11 @@ const SingleQuiz = ({question,quizNumber}) => {
             </div>
             <div className="quiz-options">
             {
-                question.options.map(option => <div onClick={()=>handleTheAnswer(option,question.correctAnswer)} className={`quiz-option ${answerStyle}`}>
-                <input type="radio" id={option} name="fav_language" value={option}></input>
-                <label for={option}>{option}</label><br />
-                </div>)
+                question.options.map(option=> <QuizOption 
+                option={option}
+                handleTheAnswer={handleTheAnswer}
+                correctAnswer={correctAnswer}
+                ></QuizOption> )
             }     
             </div> 
             <CorrectAnswerModal question={question.question} correctAnswer={question.correctAnswer} modalButton={[modalShow, setModalShow]}></CorrectAnswerModal>

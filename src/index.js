@@ -8,11 +8,15 @@ import Main from './layouts/Main';
 import Header from './components/Header/Header';
 import QuizTopics from './components/QuizTopics/QuizTopics';
 import Quiz from './components/Quiz/Quiz';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import Blog from './components/Blog/Blog';
+import Statistics from './components/Statistics/Statistics';
 
 const router= createBrowserRouter([
   {
     path:"/",
     element:<Main></Main>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:"/",
@@ -33,6 +37,14 @@ const router= createBrowserRouter([
           return fetch("https://openapi.programming-hero.com/api/quiz")
         },
         element:<QuizTopics></QuizTopics>
+      },
+      {
+        path:"/blog",
+        element:<Blog></Blog>
+      },
+      {
+        path:"/statistics",
+        element:<Statistics></Statistics>
       },
       {
         path:"/quiz/:topicName/:topicId",

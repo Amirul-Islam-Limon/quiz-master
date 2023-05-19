@@ -20,7 +20,7 @@ const Quiz = () => {
                     }
             </div>
             <div className='quiz-result-container'>
-                <h3>Quiz Result:</h3>
+                {/* <h3>Quiz Result:</h3> */}
             </div>
         </div>
     );

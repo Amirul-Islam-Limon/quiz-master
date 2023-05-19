@@ -21,6 +21,7 @@ function NavBar() {
           <Nav className='nav-item'>
             <Nav.Link > <Link to="/">Home</Link> </Nav.Link>
             <Nav.Link > <Link to="/topics">Topics</Link> </Nav.Link>
+            <Nav.Link > <Link to="/blog">Blog</Link> </Nav.Link>
             <Nav.Link > <Link to="/statistics">Statistics</Link> </Nav.Link>
             <Nav.Link > <Link to="/about-us">About us</Link> </Nav.Link>
           </Nav>
