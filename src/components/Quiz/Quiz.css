@@ -6,3 +6,15 @@
 .quiz-headline-style{
     border-bottom: 2px solid red;
 }
+
+@media screen and (max-width: 425px) {
+    .quiz{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .quiz h2{
+        font-size:25px;
+    }
+  }

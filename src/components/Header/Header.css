@@ -11,3 +11,9 @@
 .header h2{
     font-weight: bolder;
 }
+@media screen and (max-width: 425px) {
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }

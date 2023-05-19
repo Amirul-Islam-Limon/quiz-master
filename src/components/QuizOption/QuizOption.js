@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './QuizOption.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faXmarkSquare,faCheckCircle } from '@fortawesome/free-solid-svg-icons'
+import {  faXmarkSquare,faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
 const QuizOption = ({option,handleTheAnswer,correctAnswer}) => {
     const [onClickStyle, setOnClickStyle]=useState("")

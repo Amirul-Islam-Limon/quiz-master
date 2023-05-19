@@ -8,18 +8,7 @@ import QuizOption from '../QuizOption/QuizOption';
 const SingleQuiz = ({question,quizNumber}) => {
     const [modalShow, setModalShow] = useState(false);
     // const [correctAnswer, setCorrectAnswer]=useState(null)
-    
     const correctAnswer = question.correctAnswer;
-
-    const handleTheAnswer=(option)=>{
-        // console.log(option)
-    }
-
-
-    // }
-
-    
-    console.log(correctAnswer)
 
     return (
         <div className='container-lg'>
@@ -31,7 +20,7 @@ const SingleQuiz = ({question,quizNumber}) => {
             {
                 question.options.map(option=> <QuizOption 
                 option={option}
-                handleTheAnswer={handleTheAnswer}
+                // handleTheAnswer={handleTheAnswer}
                 correctAnswer={correctAnswer}
                 ></QuizOption> )
             }     
