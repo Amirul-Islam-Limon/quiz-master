@@ -9,7 +9,7 @@ const QuizTopics = () => {
     return (
         <div className='container'>
             <div className="quiz-topic-header">
-                <h2>Chose Your <span id='quiz-topic-header-style'>Topic</span></h2>
+                <h2>Choose Your <span id='quiz-topic-header-style'>Topic</span></h2>
             </div>
             <div className='quizTopics'>
                 {
