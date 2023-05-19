@@ -11,7 +11,7 @@ const QuizTopics = () => {
             <div className="quiz-topic-header">
                 <h2>Chose Your <span id='quiz-topic-header-style'>Topic</span></h2>
             </div>
-            <div className='quizTopic'>
+            <div className='quizTopics'>
                 {
                     quizTopics.map(quizTopic=> <QuizTopic
                     key={quizTopic.id}

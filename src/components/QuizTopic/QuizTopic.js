@@ -5,7 +5,7 @@ import './QuizTopic.css'
 const QuizTopic = ({quiz}) => {
     const {name, logo, total, id} = quiz;
     return (
-        <div className='quiz'>
+        <div className='quizTopic'>
             <img src={logo} alt="" />
             <h3>{name}</h3>
             <h6>Total Quiz : {total}</h6>

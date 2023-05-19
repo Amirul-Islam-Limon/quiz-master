@@ -1,14 +1,14 @@
-.quiz img{
+.quizTopic img{
     width: 100%;
     background-color: rgb(233, 223, 223);
 }
-.quiz button{
+.quizTopic button{
     text-align: end;
 }
-.quiz  a{
+.quizTopic  a{
     text-decoration: none;
     color: white;
 }
-.quiz{
+.quizTopic{
     margin: 15px;
 }

@@ -1,0 +1,8 @@
+.quiz{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-left: 100px;
+}
+.quiz-headline-style{
+    border-bottom: 2px solid red;
+}

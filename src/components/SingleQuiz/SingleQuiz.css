@@ -1,0 +1,15 @@
+.quiz-options{
+    padding: 2px;
+}
+.quiz-option{
+    padding: 7px;
+}
+.quiz-option label{
+    padding: 5px;
+}
+.quiz-option label:hover, .quiz-option input:hover{
+    cursor: pointer;
+}
+.quiz-option-true-style{
+    color: green;
+}
