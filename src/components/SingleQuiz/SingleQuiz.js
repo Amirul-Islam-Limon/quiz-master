@@ -25,7 +25,7 @@ const SingleQuiz = ({question,quizNumber}) => {
         <div className='container-lg'>
             <div className='d-flex align-items-center'>
                 <h5>Quia {quizNumber} : {question.question}</h5>
-                <FontAwesomeIcon onClick={()=> setModalShow(true)} className='ps-2' icon={faEyeSlash} />
+                <FontAwesomeIcon onClick={()=> setModalShow(true)} className='ps-2 show-answer-icon' icon={faEyeSlash} title='first try yourself!' />
             </div>
             <div className="quiz-options">
             {

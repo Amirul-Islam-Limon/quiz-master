@@ -4,7 +4,7 @@ import './Blog.css'
 const Blog = () => {
     return (
         <div className='container'>
-            <h1 className='blogs-header'>Our Awesome <span className='blogs-header-style'>Blogs</span></h1>
+            <h1 className='blogs-header pb-4 bolder'>Our Awesome <span className='blogs-header-style'>Blogs</span></h1>
             <div className='blogs'>
                 <div className='blog'>
                     <h2> 1. What Is The Purpose Of React Router?</h2>

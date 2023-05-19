@@ -15,3 +15,6 @@
 .quiz-option-true-style{
     color: green;
 }
+.show-answer-icon{
+    cursor: pointer;
+}

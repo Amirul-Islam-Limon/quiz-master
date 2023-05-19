@@ -1,0 +1,250 @@
+// 1
+
+{
+    "status": true,
+    "data": [
+    {
+    "id": 1,
+    "name": "React",
+    "logo": "https://live.staticflickr.com/65535/52413593240_e00326e727_o.png",
+    "total": 8
+    },
+    {
+    "id": 2,
+    "name": "JavaScript",
+    "logo": "https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
+    "total": 9
+    },
+    {
+    "id": 4,
+    "name": "CSS",
+    "logo": "https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
+    "total": 8
+    },
+    {
+    "id": 5,
+    "name": "Git",
+    "logo": "https://live.staticflickr.com/65535/52412639027_5692c15b3f_o.png",
+    "total": 11
+    }
+    ]
+    }
+
+// 2
+
+{
+    "status": true,
+    "data": {
+    "total": 9,
+    "id": 2,
+    "name": "JavaScript",
+    "logo": "https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
+    "questions": [
+    {
+    "options": [
+    "High-level, often just-in-time compiled, and multi-paradigm programming language",
+    "Dynamic typing, prototype-based object-orientation programming language",
+    "A multi-paradigm language that supports event-driven, functional, and imperative programming styles",
+    "All the above"
+    ],
+    "id": "62e531f2d2c8922246db90e3",
+    "question": "<p>What is Javascript (Just google: wikipedia javascript and read first four paragraphs)</p>",
+    "correctAnswer": "All the above"
+    },
+    {
+    "options": [
+    "boolean",
+    "bulbuli",
+    "number",
+    "string"
+    ],
+    "id": "62e531f2d2c8922246db90e4",
+    "question": "<p>Which one is not a type of variable?</p>",
+    "correctAnswer": "bulbuli"
+    },
+    {
+    "options": [
+    "parseFloat()",
+    "parseString()",
+    "parseNumber()",
+    "parseInt()"
+    ],
+    "id": "62e531f2d2c8922246db90e5",
+    "question": "<p>Which method is used to convert a string to an integer?</p>",
+    "correctAnswer": "parseInt()"
+    },
+    {
+    "options": [
+    "Netscape",
+    "Google",
+    "Facebook",
+    "Firefox"
+    ],
+    "id": "62e531f2d2c8922246db90e6",
+    "question": "<p>Which company developed JavaScript? (feel free to google it)</p>",
+    "correctAnswer": "Netscape"
+    },
+    {
+    "options": [
+    "/",
+    "%",
+    "*",
+    "\\"
+    ],
+    "id": "62e531f2d2c8922246db90e7",
+    "question": "<p>Which one is not a mathematical operator in JS?</p>",
+    "correctAnswer": "\\"
+    },
+    {
+    "options": [
+    "Set the value to 0",
+    "Increase the value by 1",
+    "Decrease the value by 1",
+    "White plus toothpaste"
+    ],
+    "id": "62e531f2d2c8922246db90e8",
+    "question": "<p>What does it mean by writing two plus signs after a number type variable?</p>",
+    "correctAnswer": "Increase the value by 1"
+    },
+    {
+    "options": [
+    "21",
+    "8",
+    "218",
+    "29"
+    ],
+    "id": "62e531f2d2c8922246db90e9",
+    "question": "<p>If&nbsp;you have a var age = 21; and then you write age += 8; now what will be the value of the variable age?</p>",
+    "correctAnswer": "29"
+    },
+    {
+    "options": [
+    "mobile-price",
+    "1bookName",
+    "user9",
+    "“temperature”"
+    ],
+    "id": "62e531f2d2c8922246db90ea",
+    "question": "<p>Which one is an acceptable variable name?</p>",
+    "correctAnswer": "user9"
+    },
+    {
+    "options": [
+    "7",
+    "2",
+    "5",
+    "3"
+    ],
+    "id": "62e531f2d2c8922246db90eb",
+    "question": "<p>What will be the output of the code: console.log(17%5)</p>",
+    "correctAnswer": "2"
+    }
+    ]
+    }
+    }
+
+
+// 3
+
+
+
+// 4
+
+{
+    "status": true,
+    "data": {
+    "total": 8,
+    "id": 4,
+    "name": "CSS",
+    "logo": "https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
+    "questions": [
+    {
+    "options": [
+    "Chicken Salad Sandwich",
+    "Cascading Style Sheet",
+    "Central Security Service",
+    "Cold Shrimp Salad"
+    ],
+    "id": "62be7ef712f0d8480b2cbdb7",
+    "question": "<p>What is the meaning of CSS?</p>",
+    "correctAnswer": "Cascading Style Sheet"
+    },
+    {
+    "options": [
+    "<css></css>",
+    "<color></color>",
+    "<style></style>",
+    "<head></head>"
+    ],
+    "id": "62be7ef712f0d8480b2cbdb8",
+    "question": "<p>Which tag will you use to add style on your website?</p>",
+    "correctAnswer": "<style></style>"
+    },
+    {
+    "options": [
+    "p{ blue: color }",
+    "p{ color = blue }",
+    "p{ color : blue; }",
+    "p{ text: “blue”; }"
+    ],
+    "id": "62be7ef712f0d8480b2cbdb9",
+    "question": "<p>How will you add blue color to all paragraph tags?</p><p>Hint: write four parts of a style rule</p>",
+    "correctAnswer": "p{ color : blue; }"
+    },
+    {
+    "options": [
+    "color:purple;",
+    "background color:purple;",
+    "background-color:purple;",
+    "backgroundColor:purple;"
+    ],
+    "id": "62be7ef712f0d8480b2cbdba",
+    "question": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">How would you set a purple background color to an element?</span></p>",
+    "correctAnswer": "background-color:purple;"
+    },
+    {
+    "options": [
+    "p{ width: 1/2 }",
+    "p{ width: 50%; }",
+    "p{ width: 0.5; }",
+    "p{ width: half; }"
+    ],
+    "id": "62be7ef712f0d8480b2cbdbb",
+    "question": "<p>How to set the width of all paragraph tags as half of the available width? </p><p>Hint: think about the total width as a percent and then think about the half of the width</p>",
+    "correctAnswer": "p{ width: 50%; }"
+    },
+    {
+    "options": [
+    "The value of multiple ID attributes has to be unique",
+    "Use ID to style a specific HTML element",
+    "Same ID should be used in different HTML tags"
+    ],
+    "id": "62be7ef712f0d8480b2cbdbc",
+    "question": "<p>Which one is not true?</p>",
+    "correctAnswer": "Same ID should be used in different HTML tags"
+    },
+    {
+    "options": [
+    "Separate class names by a whitespace",
+    "Separate class names by a comma",
+    "You cannot apply more than one class name",
+    "Use id"
+    ],
+    "id": "62be7ef712f0d8480b2cbdbe",
+    "question": "<p>How can we add multiple classes to an HTML element?</p>",
+    "correctAnswer": "Separate class names by a whitespace"
+    },
+    {
+    "options": [
+    "One",
+    "Two",
+    "Seven",
+    "Four"
+    ],
+    "id": "62be7ef712f0d8480b2cbdc0",
+    "question": "<p>How many values a margin style rule cannot have?</p>",
+    "correctAnswer": "Seven"
+    }
+    ]
+    }
+    }
